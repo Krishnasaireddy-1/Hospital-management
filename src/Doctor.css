@@ -1,0 +1,55 @@
+/* Doctor.css */
+
+/* Main layout */
+.doctor-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    background: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Menu links */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .sidebar a.active {
+    text-decoration: underline;
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Content wrapper */
+  .content-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  /* Welcome header */
+  .welcome-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
